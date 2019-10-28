@@ -1,9 +1,9 @@
 {
-    "name"       : "cam-vanorman/digitalocean-v2",
+    "name"       : "efellemedia/digitalocean-v2",
     "type"       : "library",
     "description": "DigitalOcean API v2 PHP 5.4+ library",
     "keywords"   : ["DigitalOcean", "API", "Cloud Hosting", "SSD", "VPS"],
-    "homepage"   : "https://github.com/cam-vanorman/DigitalOceanV2",
+    "homepage"   : "https://github.com/efellemedia/DigitalOceanV2",
     "license"    : "MIT",
 
     "authors": [

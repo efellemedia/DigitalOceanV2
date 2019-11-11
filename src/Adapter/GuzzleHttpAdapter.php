@@ -118,9 +118,9 @@ class GuzzleHttpAdapter implements AdapterInterface
         }
 
         return [
-            'reset' => (int) (string) $this->response->getHeader('RateLimit-Reset'),
-            'remaining' => (int) (string) $this->response->getHeader('RateLimit-Remaining'),
-            'limit' => (int) (string) $this->response->getHeader('RateLimit-Limit'),
+            'reset' => reset($this->response->getHeader('RateLimit-Reset')),
+            'remaining' => reset($this->response->getHeader('RateLimit-Remaining')),
+            'limit' => reset($this->response->getHeader('RateLimit-Limit')),
         ];
     }
 
